@@ -14,7 +14,7 @@ yarn server
 ```
 After running, you will see the following two interface:
 
-<img src="img/1.png"/> <img src="img/2.png"/>
+<img src="img/1.png" style="width: 20%; height: 20%;"/> <img src="img/2.png" style="width: 20%; height: 20%;"/>
 
 ## configure
 
