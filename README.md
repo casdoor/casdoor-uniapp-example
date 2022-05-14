@@ -6,9 +6,12 @@ The server: https://door.casdoor.com/
 
 
 ## Quick Start
+
+- download the code
+
 ```bash
-git clone https://github.com/casdoor/casdoor-uniapp-example.git
-cd casdoor-uniapp-example/example
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> git clone https://github.com/casdoor/casdoor-uniapp-example.git
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> cd casdoor-uniapp-example/example
 ```
 
 - install dependencies
