@@ -11,6 +11,18 @@ git clone https://github.com/casdoor/casdoor-uniapp-example.git
 cd casdoor-uniapp-example/example
 ```
 
+- install dependencies
+
+  ```shell
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> yarn install
+  ```
+
+- run
+
+  ```
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> yarn serve
+  ```
+
 After running, you will see the following two interface:
 
 <img src="img/1.png" style="width: 20%; height: 20%;"/> <img src="img/2.png" style="width: 20%; height: 20%;"/>
@@ -49,17 +61,6 @@ The meanings of some fields are explained as follows:
 | organizationName     | Yes  | the name of the Casdoor organization connected with your Casdoor application                    |
 | redirectPath     | No  | the path of the redirect URL for your Casdoor application, will be `/callback` if not provided              |
 
-- install dependencies
-
-  ```shell
-  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> yarn install
-  ```
-
-- run
-
-  ```
-  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> yarn serve
-  ```
 
 
 
