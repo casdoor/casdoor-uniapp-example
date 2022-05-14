@@ -9,7 +9,6 @@ The server: https://door.casdoor.com/
 ```bash
 git clone https://github.com/casdoor/casdoor-uniapp-example.git
 cd casdoor-uniapp-example/example
-yarn install
 ```
 
 After running, you will see the following two interface:
@@ -18,7 +17,7 @@ After running, you will see the following two interface:
 
 ## configure
 
-Now open Program.cs file and you can see the following code:
+Now open `./example/src/main.js` file and you can see the following code:
 
 ```js
 import App from './App'
