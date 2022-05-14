@@ -10,15 +10,15 @@ The server: https://door.casdoor.com/
 git clone https://github.com/casdoor/casdoor-uniapp-example.git
 cd casdoor-uniapp-example/example
 yarn install
-yarn server
 ```
+
 After running, you will see the following two interface:
 
-<div style="margin: 0 auto;"><img src="img/1.png" style="width: 20%; height: 20%;"/> <img src="img/2.png" style="width: 20%; height: 20%;"/></div>
+<img src="img/1.png" style="width: 20%; height: 20%;"/> <img src="img/2.png" style="width: 20%; height: 20%;"/>
 
 ## configure
 
-An example of a configuration is as follows:
+Now open Program.cs file and you can see the following code:
 
 ```js
 import App from './App'
@@ -49,6 +49,18 @@ The meanings of some fields are explained as follows:
 | appName           | Yes  | the name of your Casdoor application |
 | organizationName     | Yes  | the name of the Casdoor organization connected with your Casdoor application                    |
 | redirectPath     | No  | the path of the redirect URL for your Casdoor application, will be `/callback` if not provided              |
+
+- install dependencies
+
+  ```shell
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> yarn install
+  ```
+
+- run
+
+  ```
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> yarn serve
+  ```
 
 
 
