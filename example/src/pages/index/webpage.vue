@@ -21,8 +21,8 @@
 </template>
 
 <script>
-  export default{
-    onLoad(option){
+export default{
+  onLoad(option){
 	  this.url = option.path
 	},
 	data(){
@@ -30,7 +30,7 @@
 	    url: ''
 	  }
 	}
-  }
+}
 </script>
 
 <style>

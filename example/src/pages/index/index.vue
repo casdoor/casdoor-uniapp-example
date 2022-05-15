@@ -26,18 +26,18 @@
 
 <script>
 export default {
-	data() {
-	return {
-		title: 'Hello'
+  data() {
+    return {
+	  title: 'Hello'
+    }
+  },
+  methods: {
+    login(){
+	  uni.navigateTo({
+	    url: `./webpage?path=${this.getSigninUrl()}`
+	  })
 	}
-	},
-	methods: {
-	login(){
-		uni.navigateTo({
-		url: `./webpage?path=${this.getSigninUrl()}`
-		})
-	}
-	}
+  }
 }
 </script>
 
