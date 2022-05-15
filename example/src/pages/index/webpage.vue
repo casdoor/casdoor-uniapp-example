@@ -23,13 +23,13 @@
 <script>
 export default{
   onLoad(option){
-	  this.url = option.path
-	},
-	data(){
-	  return {
-	    url: ''
-	  }
+    this.url = option.path
+  },
+  data(){
+    return {
+	  url: ''
 	}
+  }
 }
 </script>
 
