@@ -37,7 +37,7 @@ import Vue from 'vue'
 import Sdk from 'casdoor-uniapp-sdk'
 Vue.config.productionTip = false
 Vue.use(Sdk, {
-  serverUrl: "https://door.casbin.com", //casdoor server url
+  serverUrl: "https://door.casdoor.com", //casdoor server url
   clientId: "014ae4bd048734ca2dea",
   organizationName: "casbin",
   appName: "app-casnode",
