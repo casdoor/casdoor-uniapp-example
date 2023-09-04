@@ -34,7 +34,7 @@ export default {
   methods: {
     login(){
 	  uni.navigateTo({
-	    url: `./webpage?path=${this.getSigninUrl()}`
+	    url: `./webpage?path=${encodeURIComponent(this.getSigninUrl())}`
 	  })
 	}
   }
