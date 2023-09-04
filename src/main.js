@@ -16,7 +16,7 @@ import App from './App.vue'
 
 // #ifndef VUE3
 import Vue from 'vue'
-import Sdk from 'casdoor-uniapp-sdk-test'
+import Sdk from 'casdoor-uniapp-sdk'
 Vue.config.productionTip = false
 Vue.use(Sdk, {
   serverUrl: "https://door.casbin.com", //casdoor server url
