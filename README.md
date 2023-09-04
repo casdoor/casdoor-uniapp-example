@@ -1,9 +1,5 @@
 <h1 align="center" style="border-bottom: none;">Casdoor Uniapp SDK Example</h1>
 
-## The example uses the following Casdoor demo site:
-
-Demo site: https://door.casdoor.com/
-
 ## Quick Start
 
 - download the code
