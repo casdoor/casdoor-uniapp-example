@@ -10,20 +10,20 @@ The server: https://door.casdoor.com/
 - download the code
 
 ```bash
-  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> git clone https://github.com/casdoor/casdoor-uniapp-example.git
-  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> cd casdoor-uniapp-example/example
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example> git clone https://github.com/casdoor/casdoor-uniapp-example.git
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example> cd casdoor-uniapp-example/example
 ```
 
 - install dependencies
 
   ```shell
-  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> yarn install
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example> yarn install
   ```
 
 - run
 
   ```
-  PS C:\Users\xxx\Desktop\casdoor-uniapp-example\example> yarn serve
+  PS C:\Users\xxx\Desktop\casdoor-uniapp-example> yarn serve
   ```
 
 After running, you will see the following two interface:
@@ -32,7 +32,7 @@ After running, you will see the following two interface:
 
 ## configure
 
-Now open `./example/src/main.js` file and you can see the following code:
+Now open `./src/main.js` file and you can see the following code:
 
 ```js
 import App from './App'

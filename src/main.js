@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import App from './App'
+import App from './App.vue'
 
 // #ifndef VUE3
 import Vue from 'vue'
