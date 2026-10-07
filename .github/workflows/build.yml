@@ -14,13 +14,16 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: yarn
 
-      - run: yarn install --frozen-lockfile --ignore-engines
+      - run: yarn install --frozen-lockfile
 
       - name: Build the H5 app
         run: yarn build:h5
 
       - name: Build the WeChat Mini Program
         run: yarn build:mp-weixin
+
+      - name: Build the App
+        run: yarn build:app

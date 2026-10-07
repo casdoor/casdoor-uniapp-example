@@ -12,33 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import App from './App.vue'
+import {createSSRApp} from "vue";
+import Casdoor from "casdoor-uniapp-sdk";
+import App from "./App.vue";
+import {casdoor} from "./casdoor.js";
 
-// #ifndef VUE3
-import Vue from 'vue'
-import Sdk from 'casdoor-uniapp-sdk'
-Vue.config.productionTip = false
-// The Casdoor application, the defaults are the public demo server https://door.casdoor.com
-Vue.use(Sdk, {
-  serverUrl: "https://door.casdoor.com", // Casdoor server URL
-  clientId: "014ae4bd048734ca2dea",
-  organizationName: "casbin",
-  appName: "app-casnode",
-  redirectPath: "/callback",
-})
-App.mpType = 'app'
-const app = new Vue({
-    ...App
-})
-app.$mount()
-// #endif
-
-// #ifdef VUE3
-import { createSSRApp } from 'vue'
 export function createApp() {
-  const app = createSSRApp(App)
+  const app = createSSRApp(App);
+  // pages reach the SDK as this.$casdoor
+  app.use(Casdoor, casdoor);
   return {
-    app
-  }
+    app,
+  };
 }
-// #endif
