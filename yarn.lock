@@ -3316,10 +3316,10 @@ casdoor-js-sdk@^0.2.7:
   resolved "https://registry.npmmirror.com/casdoor-js-sdk/-/casdoor-js-sdk-0.2.7.tgz#09342f6715977bc1991222d04dd36c93b5f0872b"
   integrity sha512-pEI7chd6KWDa7dhBxl3zDY+LagG40bBPoxdPMOZ5OG2gFMTXwRQ4Ka1do0giJsd2YTeAU3u6vwP62YmiQVzgSQ==
 
-casdoor-uniapp-sdk@1.0.0-FIX:
-  version "1.0.0-FIX"
-  resolved "https://registry.npmmirror.com/casdoor-uniapp-sdk/-/casdoor-uniapp-sdk-1.0.0-FIX.tgz#cf3160f3a12682b91c40480c82f429cf16b9ea0a"
-  integrity sha512-qsFFWnNik3YygqS/iA7wv92bHjhZ7ydvipYmgIX2cPNIv+gY103o32tLqREthWiFAvb4yXnnHc4NWYUWtEorXQ==
+casdoor-uniapp-sdk@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/casdoor-uniapp-sdk/-/casdoor-uniapp-sdk-1.2.0.tgz#879a19f2d90fe1d420db3e58d5f41a165829b377"
+  integrity sha512-5ieIF6DIbf8G+GrDe3owHfp3icvRnwQuzQdQz1Aq4fnuWkYa985nRSP5Mgpjap3OqLwZep2OV7RB83vDPP8wXg==
   dependencies:
     casdoor-js-sdk "^0.2.7"
 

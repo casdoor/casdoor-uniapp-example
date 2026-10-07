@@ -20,7 +20,7 @@
 	<view class="text-area">
 		<text class="title">{{title}}</text>
 	</view>
-	<button @click="login">Click to login</button>
+	<button @click="login">Login with Casdoor</button>
   </view>
 </template>
 
@@ -28,11 +28,12 @@
 export default {
   data() {
     return {
-	  title: 'Hello'
+	  title: 'Casdoor uni-app Example'
     }
   },
   methods: {
     login(){
+	  // getSigninUrl() is added by casdoor-uniapp-sdk, the page opens it in a web-view
 	  uni.navigateTo({
 	    url: `./webpage?path=${encodeURIComponent(this.getSigninUrl())}`
 	  })

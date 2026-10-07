@@ -18,8 +18,9 @@ import App from './App.vue'
 import Vue from 'vue'
 import Sdk from 'casdoor-uniapp-sdk'
 Vue.config.productionTip = false
+// The Casdoor application, the defaults are the public demo server https://door.casdoor.com
 Vue.use(Sdk, {
-  serverUrl: "https://door.casdoor.com", //casdoor server url
+  serverUrl: "https://door.casdoor.com", // Casdoor server URL
   clientId: "014ae4bd048734ca2dea",
   organizationName: "casbin",
   appName: "app-casnode",
